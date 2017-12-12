@@ -78,6 +78,10 @@ let confirm = EMAlertAction(title: "CONFIRM", style: .normal) {
 
 alert.addAction(action: cancel)
 alert.addAction(action: confirm)
+
+// Present alert.
+present(alert, animated: true, completion: nil)
+
 ```
 
 ## Customization
